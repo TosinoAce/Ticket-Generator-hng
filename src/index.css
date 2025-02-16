@@ -1,0 +1,34 @@
+@import url(https://db.onlinewebfonts.com/c/1a5c2d8bbd4e28d99a6efcbb9a5b378f?family=JejuMyeongjo);
+@import url("https://fonts.googleapis.com/css2?family=Road+Rage&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: 0.4s ease-in-out;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  color: #ffffff;
+  font-family: "JejuMyeongjo";
+  padding: 0 20px;
+  background: radial-gradient(
+      52.52% 32.71% at 50% 97.66%,
+      rgba(36, 160, 181, 0.2) 0%,
+      rgba(36, 160, 181, 0) 100%
+    ),
+    #02191d;
+}
+button {
+  cursor: pointer;
+}
+@media (max-width: 600px){
+  p{
+    font-size: 14px;
+  }
+}
