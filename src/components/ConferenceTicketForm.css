@@ -11,9 +11,12 @@
   border: 1px solid #0e464f;
   background: #08252b;
 }
+form{
+  width: 100%;
+}
 .photo {
   display: flex;
-  min-width: 556px;
+  min-width: 100%;
   padding: 24px 24px 48px 24px;
   flex-direction: column;
   align-items: flex-start;
@@ -92,8 +95,10 @@
 }
 @media (max-width: 600px) {
   .photo {
-    display: flex;
     min-width: 200px;
+    width: 100%;
+    display: flex;
+    
   }
   .form-buttons{
     flex-direction: column-reverse;

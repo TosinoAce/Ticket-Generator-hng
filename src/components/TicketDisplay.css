@@ -194,7 +194,8 @@
   width: 8px;
   height: 3px;
   border-radius: 14.667px;
-  background: #d9d9d9;
+  border: 1px solid #24a0b5;
+  background: transparent;
 }
 .barcode-container {
   width: 100%;

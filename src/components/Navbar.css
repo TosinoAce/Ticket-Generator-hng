@@ -58,6 +58,14 @@ header button {
   font-weight: 400;
   cursor: pointer;
 }
+header button:hover{
+border: 1px solid #D9D9D9;
+background: #24A0B5;
+color: #fafafa;
+}
+header button:hover  > img{
+  transform: rotate(-45deg);
+}
 @media (max-width: 600px) {
     #nav-links{
         display: none;
