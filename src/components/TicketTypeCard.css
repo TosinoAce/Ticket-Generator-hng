@@ -11,19 +11,24 @@
   cursor: pointer;
 }
 .ticket-card > div > p {
-    color: #FAFAFA;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 24px */
-    text-transform: uppercase;
+  color: #fafafa;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  text-transform: uppercase;
 }
 .ticket-card > p {
   font-family: Roboto;
   font-size: 24px;
   font-weight: 600;
 }
-.ticket-card.selected{
-  background: #12464E;
+.ticket-card.selected {
+  border: 1px solid #197686;
+  background: #12464e;
+}
+.ticket-card:hover {
+  border: 1px solid #197686;
+  background: #2c545b;
 }
